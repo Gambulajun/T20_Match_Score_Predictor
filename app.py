@@ -1,6 +1,10 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import sklearn
+
+print(sklearn.__version__)
+print("haha")
 
 # load model
 pipe = pickle.load(open("pipe.pkl", "rb"))
